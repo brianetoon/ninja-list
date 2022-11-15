@@ -4,5 +4,7 @@
 .not-found a {
     color: var(--clr-accent);
     font-weight: bold;
+}
+.not-found a:hover {
     text-decoration: underline;
 }
