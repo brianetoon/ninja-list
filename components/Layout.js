@@ -1,14 +1,22 @@
-import Footer from "./Footer"
+import Head from "next/head"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
-    return ( 
-        <div className="content">
+   return ( 
+      <>
+         <Head>
+            <title>Ninja List</title>
+            <meta name="keywords" content="ninjas" />
+            <link rel="icon" type="image/png" href="/favicon.png" />
+         </Head>
+         <div className="content">
             <Navbar />
             { children }
             <Footer />
-        </div>
-     );
+         </div>
+      </>
+   );
 }
  
 export default Layout;
