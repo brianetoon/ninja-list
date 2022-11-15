@@ -31,11 +31,12 @@ nav {
   padding-block: 1rem;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   border-bottom: 1px solid var(--clr-border);
 }
 nav a {
   margin-left: 1rem;
+  margin-bottom: 7px;
 }
 nav a:hover {
   color: var(--clr-accent);
